@@ -11,4 +11,10 @@ public class HelloWorldController {
     {
         return "websocket";
     }
+
+    @RequestMapping("aaaa")
+    public String aaaaa()
+    {
+        return "123";
+    }
 }
