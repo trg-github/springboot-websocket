@@ -17,4 +17,9 @@ public class HelloWorldController {
     {
         return "123";
     }
+    @RequestMapping("bbbb")
+    public String bbbb()
+    {
+        return "123";
+    }
 }
